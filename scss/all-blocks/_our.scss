@@ -1,0 +1,48 @@
+.our {
+    margin-top: 168px;
+
+    &__title {
+        color: #83888F;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+    }
+
+    &__info {
+        margin-left: -30px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item + &__item {
+        margin-left: 168px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        color: #333D4B;
+        font-family: "Fraunces";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px; 
+        padding-top: 45px;
+        padding-bottom: 24px;
+    }
+
+    &__link {
+        margin: 0;
+        padding: 0;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+}
